@@ -411,7 +411,7 @@ spec:
     imagePullSecretName: redhat-pull-secret
 ```
 
-### Methods for Exteral Access
+### Methods for External Access
 
 Support is available to access Quay through a number of OpenShift and Kubernetes mechanisms for ingress. When running on OpenShift, a [Route](https://docs.openshift.com/container-platform/4.2/networking/routes/route-configuration.html) is used while a [LoadBalancer Service](https://kubernetes.io/docs/concepts/services-networking/service/#loadbalancer) is used. 
 
